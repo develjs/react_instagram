@@ -11,4 +11,37 @@
         (--tabletLandscape) {
         justify-content: center;
     }
+    
+    & li {
+        position:relative;
+        
+        & button {
+            right: 0;
+            background: 0 0;
+            border: 0;
+            justify-self: center;
+            outline: 0;
+            padding: 16px 8px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+
+            display: block;
+            overflow: hidden;
+            text-indent: 110%;
+            white-space: nowrap;
+            
+            & div {
+                transform: scaleX(-1);
+                box-flex: 0;
+                flex: 0 0 auto;
+                background-position: -131px -357px;
+                background-repeat: no-repeat;
+                height: 24px;
+                width: 24px;
+                background-image: url("./assets/icons/collage.png");
+            }
+        }    
+    }
 }

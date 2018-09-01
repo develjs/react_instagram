@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 // Instruments
 import avatar from '../theme/assets/avatars/nasa';
+import Stories from './Stories';
 
 export default class Profile extends Component {
     render () {
@@ -27,6 +28,8 @@ export default class Profile extends Component {
                     </div>
                     <span className = 'name'>NASA</span>
                 </div>
+                
+                <Stories />
             </div>
         );
     }

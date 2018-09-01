@@ -5,6 +5,7 @@ import { hot } from 'react-hot-loader';
 // Components
 import Header from '../components/Header';
 import Content from '../components/Content';
+import Footer from '../components/Footer';
 
 @hot(module)
 export default class Instagram extends Component {
@@ -13,6 +14,7 @@ export default class Instagram extends Component {
             <>
                 <Header />
                 <Content />
+                <Footer />
             </>
         );
     }
