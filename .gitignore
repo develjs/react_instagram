@@ -96,3 +96,5 @@ Temporary Items
 /*.workspace
 /package-lock.json
 /yarn.lock
+/*.tern-port
+/*.tern-project
